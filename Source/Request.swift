@@ -467,11 +467,16 @@ open class DownloadRequest: Request {
     /// Cancels the request.
     open override func cancel() {
         downloadDelegate.downloadTask.cancel { self.downloadDelegate.resumeData = $0 }
+        
+        var userInfo = [AnyHashable: Any]()
+        if let task = task {
+            userInfo = [Notification.Key.Task: task]
+        }
 
         NotificationCenter.default.post(
             name: Notification.Name.Task.DidCancel,
             object: self,
-            userInfo: [Notification.Key.Task: task]
+            userInfo: userInfo
         )
     }
 
