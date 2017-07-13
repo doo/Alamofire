@@ -929,7 +929,7 @@
 					};
 					F8111E3219A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 					};
 					F8111E3D19A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
@@ -1402,6 +1402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = AppStoreFree;
 		};
@@ -1580,6 +1581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = AppStorePro;
 		};
@@ -1982,6 +1984,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -2000,6 +2003,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
