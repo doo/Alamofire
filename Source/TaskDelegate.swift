@@ -31,7 +31,7 @@ open class TaskDelegate: NSObject {
     // MARK: Properties
 
     /// The serial operation queue used to execute all operations after the task completes.
-    @objc open let queue: OperationQueue
+    @objc public let queue: OperationQueue
 
     @objc var task: URLSessionTask? {
         didSet { reset() }

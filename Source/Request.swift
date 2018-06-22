@@ -102,7 +102,7 @@ open class Request {
     open var task: URLSessionTask? { return delegate.task }
 
     /// The session belonging to the underlying task.
-    open let session: URLSession
+    public let session: URLSession
 
     /// The request sent or to be sent to the server.
     open var request: URLRequest? { return task?.originalRequest }
