@@ -1408,7 +1408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = RetailDemo;
 		};
@@ -1593,7 +1593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = AppStoreFree;
 		};
@@ -1778,7 +1778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = AppStorePro;
 		};
@@ -2193,7 +2193,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -2212,7 +2212,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.alamofire.Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
